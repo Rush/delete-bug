@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "esm": "^3.0.84",
+    "fuse.js": "^3.3.0",
+    "link-module-alias": "^1.1.5"
+  },
+  "_moduleAliases": {
+    "@components": "./components"
+  },
+  "scripts": {
+    "postinstall": "link-module-alias"
+  }
+}
